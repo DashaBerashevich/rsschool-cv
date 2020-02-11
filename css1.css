@@ -1,0 +1,244 @@
+@charset "utf-8";
+body{
+	margin:0;
+background-image: url("Безымянный.png");
+background-repeat:round;
+background-attachment: fixed;
+}
+#block{
+	width: 650px;
+	height: 600px;
+	margin-top: 55px;
+	margin-left: 450px;
+	border: 2px groove white;
+	border-collapse: collapse;
+	position: absolute;
+	z-index: 1;
+}
+#avatar {
+	width: 180px;
+	height: 180px;
+	margin-top: 70px;
+	margin-left: 470px;
+	position: absolute;
+	z-index: 100;
+	border-radius: 105px;
+   }
+#hi {
+	color:white;
+	position: absolute;
+	z-index: 100;
+	margin-top: 220px;
+	margin-left: 480px;
+	font-family: 'Pacifico', cursive;
+	font-weight: bold;
+	letter-spacing: 5px;
+	transform: rotate(-5deg);
+	text-shadow: 2px 2px 2px black;	
+}
+#name{
+	color:white;
+	position: absolute;
+	z-index: 100;
+	margin-top: 270px;
+	margin-left: 467px;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+    font-weight:lighter;
+	font-size: 26px;
+	letter-spacing: 1px;
+	text-align: center;	
+}
+#position{
+	color:white;
+	position: absolute;
+	z-index: 100;
+	margin-top: 335px;
+	margin-left: 475px;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+    font-weight:lighter;
+	font-size: 12px;
+	letter-spacing: 1px;
+	
+}
+.about-me{
+	color:white;
+	position: absolute;
+	z-index: 100;
+	margin-top: 380px;
+	margin-left: 467px;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+    font-weight:lighter;
+	font-size: 12px;
+	letter-spacing: 1px;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-color:#9E9E9E;
+	text-decoration-style: bold;
+}	
+p.about-me {
+	text-decoration: none;
+	margin-top: 400px;
+	text-align: left;
+}
+h3.about-me{color:white;
+	position: absolute;
+	z-index: 100;
+	margin-top: 450px;
+	margin-left: 467px;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+    font-weight:lighter;
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-decoration: underline;
+	text-decoration-color:#9E9E9E;
+	text-decoration-style: bold;}
+ul.about-me{color:white;
+	position: absolute;
+	z-index: 100;
+	margin-top: 475px;
+	margin-left: 445px;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+    font-weight:lighter;
+	font-size: 12px;
+	letter-spacing: 1px;
+	text-align: left;
+	text-decoration:none;
+	text-decoration-color:#9E9E9E;
+	text-decoration-style: bold;}
+ul.about-me li{
+	list-style-type:circle;
+}
+h4.about-me{
+	color:white;
+	position: absolute;
+	z-index: 100;
+	margin-top: 560px;
+	margin-left: 467px;
+	text-decoration: none;
+}
+#p2.about-me{
+	color:white;
+	position: absolute;
+	z-index: 100;
+	margin-top: 580px;
+	margin-left: 487px;
+	text-decoration: none;
+}
+#p3.about-me{
+	color:white;
+	position: absolute;
+	z-index: 100;
+	margin-top: 600px;
+	margin-left: 472px;
+	text-decoration: none;
+}
+#p4.about-me
+{color:white;
+	position: absolute;
+	z-index: 100;
+	margin-top: 620px;
+	margin-left: 465px;
+	text-decoration: none;}
+#edu  {
+	color:white;
+	position: absolute;
+	margin-left: 700px;
+	margin-top: 55px;
+	z-index: 100;
+	font-weight: 100;
+	letter-spacing: 2px;
+	text-decoration: underline;
+	text-decoration-color:#CDCDCD;
+	text-decoration-style: bold;
+	text-shadow: 1px 1px 2px black;
+}
+#uni{color:white;
+	position: absolute;
+	margin-left: 680px;
+	margin-top: 105px;
+	z-index: 100;
+	font-weight: 100;
+	font-size: 20px;
+	text-shadow: 1px 1px 2px black;
+	}
+
+#spec{color:white;
+	position: absolute;
+	margin-left: 680px;
+	margin-top: 140px;
+	z-index: 100;
+	font-weight: 100;
+	text-shadow: 1px 1px 2px black;
+	}
+#work{
+	color: black;
+	position: absolute;
+	margin-left: 700px;
+	margin-top: 250px;
+	z-index: 100;
+	font-weight: 100;
+	letter-spacing: 2px;
+	text-decoration: underline;
+	text-decoration-color:#343434;
+	text-decoration-style: bold;
+}
+#exp{color: black;
+	position: absolute;
+	margin-left: 680px;
+	margin-top: 320px;
+	z-index: 100;
+	font-weight: 100;
+	letter-spacing: 1px;
+	}
+
+#stu{color: black;
+	position: absolute;
+	margin-left: 680px;
+	margin-top: 370px;
+	z-index: 100;
+	font-weight: 100;
+	letter-spacing: 1px;
+}
+#con{color: black;
+	position: absolute;
+	margin-left: 700px;
+	margin-top: 415px;
+	z-index: 100;
+	font-weight: 100;
+	letter-spacing: 2px;
+	text-decoration: underline;
+	text-decoration-color:#343434;
+	text-decoration-style: bold;}
+#vk{
+	position: absolute;
+	margin-left: 130px;
+	margin-top: 50px;
+	z-index: 100;
+}
+#vk img{
+	width: 70px;
+	height: 70px;
+}
+#tel{
+	color: black;
+	position: absolute;
+	margin-left: 680px;
+	margin-top: 470px;
+	z-index: 100;
+	font-weight: 100;
+	letter-spacing: 1px;
+
+}
+#inst{
+	position: absolute;
+	margin-left: 890px;
+	margin-top: 555px;
+	z-index: 100;
+}
+#inst img {
+	width: 70px;
+	height: 70px;
+}
+a:hover{
+	box-shadow: 2px 2px 2px 2px black;
+}
